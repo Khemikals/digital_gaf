@@ -1,0 +1,10 @@
+<option value="" selected disabled>Select Grade</option>
+<option value="A1">A1 (Excellent)</option>
+<option value="B2">B2 (Very Good)</option>
+<option value="B3">B3 (Good)</option>
+<option value="C4">C4 (Credit)</option>
+<option value="C5">C5 (Credit)</option>
+<option value="C6">C6 (Credit)</option>
+<option value="D7">D7 (Pass)</option>
+<option value="E8">E8 (Pass)</option>
+<option value="F9">F9 (Fail)</option>

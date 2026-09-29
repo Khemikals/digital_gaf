@@ -1,0 +1,86 @@
+/* GAF OFFICIAL BRANDING COLORS */
+:root {
+    --gaf-green: #4B5320; /* Camo/Army Green */
+    --gaf-red: #B22222;   /* Firebrick Red */
+    --gaf-gold: #FFD700;  /* Ghana Gold */
+    --gaf-dark: #0B1A2A;  /* Deep Navy/Black */
+    --gaf-light: #F8F9FA;
+}
+
+/* GLOBAL STYLES */
+body {
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: var(--gaf-light);
+    color: var(--gaf-dark);
+}
+
+/* NAVIGATION */
+.navbar {
+    border-bottom: 3px solid var(--gaf-gold);
+}
+
+.nav-link {
+    font-weight: 600 !important;
+    color: var(--gaf-dark) !important;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.nav-link:hover {
+    color: var(--gaf-red) !important;
+}
+
+.btn-apply, .btn-danger {
+    background-color: var(--gaf-red) !important;
+    border: none !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.btn-apply:hover {
+    background-color: var(--gaf-green) !important;
+    transform: scale(1.05);
+}
+
+/* HERO SECTION */
+.hero { 
+    height: 85vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                url('https://gafonline.mil.gh/images/recruitment/1766151831_enlistment_04l1aFIrRf.png');
+    background-size: cover; 
+    background-position: center;
+    display: flex; 
+    align-items: center; 
+    color: white;
+}
+
+/* FORMS & CARDS */
+.card {
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.card-header {
+    background-color: var(--gaf-green) !important;
+    color: white !important;
+    font-weight: bold;
+    border-bottom: 2px solid var(--gaf-gold) !important;
+}
+
+/* DASHBOARD SPECIFIC */
+.bg-success { background-color: var(--gaf-green) !important; }
+.badge-qualified { background-color: var(--gaf-green); color: white; }
+.badge-disqualified { background-color: var(--gaf-red); color: white; }
+
+/* FOOTER */
+footer {
+    background-color: var(--gaf-dark);
+    color: #ced4da;
+    border-top: 5px solid var(--gaf-red);
+}
+
+footer h5 {
+    color: var(--gaf-gold);
+}
